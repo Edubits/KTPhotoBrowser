@@ -6,7 +6,7 @@
 //
 
 #import "KTThumbView.h"
-#import "SDWebImageManagerDelegate.h"
+#import <SDWebImage/SDWebImageManagerDelegate.h>
 
 @interface  KTThumbView (SDWebImage) <SDWebImageManagerDelegate>
 

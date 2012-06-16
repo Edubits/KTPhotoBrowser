@@ -6,7 +6,7 @@
 //
 
 #import "KTPhotoView.h"
-#import "SDWebImageManagerDelegate.h"
+#import <SDWebImage/SDWebImageManagerDelegate.h>
 
 @interface KTPhotoView (SDWebImage) <SDWebImageManagerDelegate>
 
